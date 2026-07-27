@@ -1,58 +1,66 @@
-# Linear-Regression-California-Housing
-Task 1 for AI &amp; Machine Learning Internship using Linear Regression.
-# California Housing Price Prediction using Linear Regression
+# 🏡 California Housing Price Prediction
 
-## Overview
+This repository contains machine learning projects completed during my AI & ML internship. The projects focus on predicting California housing prices using different regression algorithms and comparing their performance.
 
-This project was completed as part of my AI & Machine Learning Internship at Maincrafts Technology.
+## 📂 Repository Structure
 
-The objective of this project is to build a Linear Regression model that predicts house prices using the California Housing Dataset provided by Scikit-learn.
+```
+California-Housing-Price-Prediction/
+│
+├── Task_1/
+│   └── AI_ML_Task1.ipynb
+│
+├── Task_2/
+│   └── AI_ML_Task2.ipynb
+│
+└── README.md
+```
 
-## Technologies Used
+## 📌 Task 1 – Linear Regression
+
+- Loaded the California Housing Dataset
+- Performed Exploratory Data Analysis (EDA)
+- Built a Linear Regression model
+- Evaluated the model using RMSE and R² Score
+
+## 📌 Task 2 – Regression Model Comparison
+
+Compared the performance of:
+
+- Linear Regression
+- Ridge Regression
+- Decision Tree Regression
+
+Evaluation metrics:
+
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+## 🛠️ Technologies Used
 
 - Python
-- Jupyter Notebook
 - Pandas
 - NumPy
 - Matplotlib
 - Scikit-learn
+- Jupyter Notebook
 
-## Dataset
+## 📊 Dataset
 
-The project uses the California Housing Dataset available in the Scikit-learn library.
+California Housing Dataset from Scikit-learn.
 
-Features include:
-- Median Income
-- House Age
-- Average Rooms
-- Average Bedrooms
-- Population
-- Average Occupancy
-- Latitude
-- Longitude
+## 🏆 Results
 
-Target:
-- Median House Value
+The Decision Tree Regressor achieved the highest R² Score among the evaluated models.
 
-## Project Workflow
+## 📚 Skills Demonstrated
 
-1. Import required libraries
-2. Load the California Housing dataset
-3. Perform Exploratory Data Analysis (EDA)
-4. Visualize the data
-5. Split the dataset into training and testing sets
-6. Train a Linear Regression model
-7. Make predictions
-8. Evaluate the model using:
-   - Mean Absolute Error (MAE)
-   - Mean Squared Error (MSE)
-   - Root Mean Squared Error (RMSE)
-   - R² Score
-9. Compare actual and predicted values using a scatter plot
-
-## Files
-
-- `task1_ml_linear_regression.ipynb` – Jupyter Notebook containing the complete implementation.
+- Data Preprocessing
+- Exploratory Data Analysis
+- Feature Scaling
+- Machine Learning
+- Model Evaluation
+- Data Visualization
 
 ## Author
 
